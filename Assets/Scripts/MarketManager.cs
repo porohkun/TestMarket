@@ -2,7 +2,6 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using PNetJson;
 
 public class MarketManager: MonoBehaviour
 {
@@ -41,8 +40,7 @@ public class MarketManager: MonoBehaviour
     {
         LoadPrefabs();
 
-        JSONValue contents = JSONValue.Load("market_contents.json");
-        Contents = MarketItem.Load(contents.Array);
+        Contents = MarketItem.Load();
 
         int offset = 0;
         foreach (MarketItem item in Contents)
