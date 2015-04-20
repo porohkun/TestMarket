@@ -1,0 +1,77 @@
+[
+    {
+        "name":"Белый ящик",
+        "price":15,
+        "model":"white_box"
+    },
+    {
+        "name":"Синий бокс",
+        "price":23,
+        "model":"blue_box"
+    },
+    {
+        "name":"Белошар",
+        "price":37,
+        "model":"white_sphere"
+    },
+    {
+        "name":"Зелен короб",
+        "price":11,
+        "model":"green_box"
+    },
+    {
+        "name":"Белая табла",
+        "price":28,
+        "model":"white_cap"
+    },
+    {
+        "name":"Синяя таблетка",
+        "price":14,
+        "model":"blue_cap"
+    },
+    {
+        "name":"Красная капсула",
+        "price":34,
+        "model":"red_cap"
+    },
+    {
+        "name":"Зелен горох",
+        "price":75,
+        "model":"green_cap"
+    },
+    {
+        "name":"Штучка",
+        "price":31,
+        "model":"abstract1"
+    },
+    {
+        "name":"Фигень",
+        "price":19,
+        "model":"abstract2"
+    },
+    {
+        "name":"Красный куб",
+        "price":8,
+        "model":"red_box"
+    },
+    {
+        "name":"Абзац",
+        "price":22,
+        "model":"abstract3"
+    },
+    {
+        "name":"Штуковина",
+        "price":64,
+        "model":"abstract4"
+    },
+    {
+        "name":"Непонятка",
+        "price":48,
+        "model":"abstract5"
+    },
+    {
+        "name":"Шуршурка",
+        "price":100,
+        "model":"abstract6"
+    }
+]
