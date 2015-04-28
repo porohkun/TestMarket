@@ -12,7 +12,7 @@ public class MarketContent : MonoBehaviour
     {
         Item = item;
         transform.name = item.Name;
-        Transform content = (Transform)Instantiate(MarketManager.Prefabs[item.Model]);
+        Transform content = (Transform)Instantiate(item.Model);
         content.SetParent(ContentObject);
         content.localPosition = Vector3.zero;
         ContentObject.gameObject.AddComponent<Rotor>();
